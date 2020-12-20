@@ -1,6 +1,8 @@
 # WikiSea
 Wikipedia search engine.
 
+![pic](https://github.com/ashwinpn/WikiSea/blob/main/resources/wsea.png)
+
 ## Deploying on Courant Servers
 
 Deploy the search engine (indexer with job management system and queryer) on CIMS's server. In this case, we use 1% Wikipedia data and produce 2 data groups each has 2 shards.
