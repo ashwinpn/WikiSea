@@ -1,5 +1,7 @@
 FROM python:3.6
 
+MAINTAINER Ashwin Prakash Nalwade
+
 RUN export GCSFUSE_REPO=gcsfuse-jessie \
 	&& echo "deb http://packages.cloud.google.com/apt $GCSFUSE_REPO main" | tee /etc/apt/sources.list.d/gcsfuse.list \
 	&& curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - \
