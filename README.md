@@ -18,6 +18,7 @@ Deploy the search engine (indexer with job management system and queryer) on CIM
 
 ### Dependencies
     ```bash
+    
     pip install -r requirements.txt
     ```
 
